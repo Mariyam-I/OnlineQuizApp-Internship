@@ -90,11 +90,13 @@ INSERT INTO quizzes (quiz_id, title, description) VALUES
 ========================================================================================================================
 -- Java Basics Quiz Questions
 ========================================================================================================================
+INSERT INTO quizzes (quiz_id, title, description) VALUES
+(1, 'Java Basics', 'Test your knowledge of core Java concepts');
 
 INSERT INTO questions (quiz_id, question_text, option_a, option_b, option_c, option_d, correct_option) VALUES
 (1, 'Which keyword is used to inherit a class in Java?', 'implement', 'extends', 'inherits', 'super', 'B'),
 (1, 'Which of the following is not a Java primitive type?', 'int', 'float', 'String', 'boolean', 'C'),
-(1, 'What does JVM stand for?', 'Java Virtual Machine', 'Java Verified Mode', 'Just Virtual Memory', 'Joint Virtual Module','A'),
+(1, 'What does JVM stand for?', 'Java Virtual Machine', 'Java Verified Mode', 'Just Virtual Memory', 'Joint Virtual Module', 'A'),
 (1, 'Which method is the entry point for a Java program?', 'start()', 'main()', 'run()', 'init()', 'B'),
 (1, 'Which of these is used to handle exceptions in Java?', 'goto', 'try-catch', 'final', 'error-catch', 'B'),
 (1, 'Which of these cannot be used for a variable name in Java?', 'identifier', 'keyword', 'variable', 'none of these', 'B'),
@@ -104,10 +106,12 @@ INSERT INTO questions (quiz_id, question_text, option_a, option_b, option_c, opt
 (1, 'Which keyword is used to prevent inheritance of a class?', 'static', 'final', 'const', 'private', 'B');
 
 
-
 ========================================================================================================================
 -- OOP Concepts Quiz Questions
 ========================================================================================================================
+
+INSERT INTO quizzes (quiz_id, title, description) VALUES
+(2, 'OOP Concepts', 'Check your understanding of Object-Oriented Programming');
 
 INSERT INTO questions (quiz_id, question_text, option_a, option_b, option_c, option_d, correct_option) VALUES
 (2, 'Which concept allows objects to take many forms?', 'Inheritance', 'Polymorphism', 'Encapsulation', 'Abstraction', 'B'),
@@ -126,6 +130,8 @@ INSERT INTO questions (quiz_id, question_text, option_a, option_b, option_c, opt
 ========================================================================================================================
 -- SQL Fundamentals Quiz Questions
 ========================================================================================================================
+INSERT INTO quizzes (quiz_id, title, description) VALUES
+(3, 'SQL Fundamentals', 'Basic questions on SQL and databases');
 
 INSERT INTO questions (quiz_id, question_text, option_a, option_b, option_c, option_d, correct_option) VALUES
 (3, 'Which SQL statement is used to fetch data from a table?', 'SELECT', 'FETCH', 'GET', 'SHOW', 'A'),
